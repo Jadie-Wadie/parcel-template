@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Import
 source $(dirname "$0")/lib/colors.sh

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Error / Success
 R='\033[0;31m'

@@ -45,7 +45,7 @@ npm run clean
 Build the [Docker](https://www.docker.com/) image.
 
 ```sh
-docker build . -t ja1den/react-express-template
+npm run build
 ```
 
 ## License

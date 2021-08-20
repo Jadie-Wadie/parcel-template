@@ -8,8 +8,10 @@
 		"packages/*"
 	],
 	"scripts": {
+		"bcrypt": "scripts/bcrypt.sh",
+		"build": "scripts/build.sh",
 		"clean": "rimraf ./**/node_modules",
-		"kill": "bash scripts/kill.sh",
+		"kill": "scripts/kill.sh",
 		"lint": "sort-package-json package.json apps/*/package.json",
 		"postinstall": "patch-package"
 	},
