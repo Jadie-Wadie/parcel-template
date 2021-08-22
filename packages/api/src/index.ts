@@ -8,7 +8,6 @@ import 'colors';
 
 // Lib
 import getPaths from './lib/getPaths';
-import { Server } from 'http';
 
 // Main
 async function main() {
