@@ -8,7 +8,7 @@ This is a template for [React](https://reactjs.org/) projects built with [TypeSc
 
 It includes an [Express](https://expressjs.com/) server for hosting a REST API.
 
-It uses [Lerna](https://lerna.js.org/) to manage dependencies, and includes a [Dockerfile](Dockerfile).
+It uses [workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces) to manage dependencies, and includes a [Dockerfile](Dockerfile).
 
 ## Usage
 

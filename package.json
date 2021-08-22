@@ -12,11 +12,10 @@
 		"build": "scripts/build.sh",
 		"clean": "rimraf ./**/node_modules",
 		"kill": "scripts/kill.sh",
-		"lint": "sort-package-json package.json apps/*/package.json",
+		"lint": "sort-package-json package.json packages/*/package.json",
 		"postinstall": "patch-package"
 	},
 	"devDependencies": {
-		"lerna": "^4.0.0",
 		"patch-package": "^6.4.7",
 		"rimraf": "^3.0.2",
 		"sort-package-json": "^1.50.0"
